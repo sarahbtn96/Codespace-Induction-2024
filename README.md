@@ -1,4 +1,4 @@
-# Edinburgh College - Codespace Introductory Course 2024
+# Edinburgh College - Introductory Codespace Course 2024
 
 My portfolio website and completed challenges for Edinburgh College's Introductory Codespace Course
 
