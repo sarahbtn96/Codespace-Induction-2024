@@ -1,0 +1,301 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #272727;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+#promo {
+	background-color: #FFFEEB;
+	padding: 0;
+	letter-spacing: 1.5px;
+	font-size: 0.75em;
+	text-align: center;
+	padding: 3px;
+}
+
+#navsearchcart {
+	padding: 0;
+}
+
+#searchinput {
+	border: none;
+	font-size: 0.95em;
+	letter-spacing: 1.5px;
+}
+
+#searchinput:focus,
+#searchbox:focus {
+	outline: none !important;
+}
+
+#navbarmain {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.dropdown-menu {
+	border: 0;
+}
+
+.bi-search,
+.bi-bag,
+.bi-person-circle {
+	font-size: 1.6em;
+}
+
+#navsearchcart {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+.bi-facebook,
+.bi-instagram,
+.bi-twitter {
+	color: #ffffff;
+}
+
+
+
+header,
+footer,
+#copyright {
+	color: #ffffff;
+	font-size: 0.74em;
+	letter-spacing: 1.5px;
+	background-color: #272727;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+#footerlinks {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#footerlinks:hover {
+	text-decoration: underline;
+}
+
+.nav-link,
+.dropdown-menu {
+	color: #ffffff;
+	font-size: 0.85em;
+	letter-spacing: 1.5px;
+	background: transparent;
+}
+
+.nav-item:after {
+	display: block;
+	content: '';
+	border-bottom: solid 1px white;
+	transform: scaleX(0);
+	transition: transform 250ms ease-in-out;
+	margin-top: -5px;
+}
+
+.nav-item:hover:after {
+	transform: scaleX(1);
+}
+
+#collectiondropdown {
+	background-color: #272727;
+}
+
+.dropdown-item {
+	color: #ffffff;
+}
+
+#navbar2 {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#logo {
+	margin-top: 15px;
+	width: 200px;
+	height: 90px;
+}
+
+@media (max-width: 1200px) {
+	.top-left {
+		display: none;
+	}
+
+	.top-right {
+		display: none;
+	}
+
+	.bottom-right {
+		display: none;
+	}
+
+	.bottom-right2 {
+		display: none;
+	}
+
+	.button {
+		display: none;
+	}
+
+}
+
+.top-left {
+	position: absolute;
+	top: 230px;
+	left: 55px;
+	color: #ffffff;
+	font-size: 0.9em;
+}
+
+.top-right {
+	position: absolute;
+	top: 230px;
+	right: 55px;
+	text-align: right;
+	font-size: 0.9em;
+}
+
+.bottom-right {
+	position: absolute;
+	top: 280px;
+	right: 55px;
+	text-align: right;
+	color: #ffffff;
+	font-size: 0.9em;
+}
+
+.bottom-right2 {
+	position: absolute;
+	top: 320px;
+	right: 55px;
+	text-align: right;
+	color: #ffffff;
+	font-size: 0.9em;
+}
+
+.button {
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #272727;
+	background: rgba(255, 255, 255, .65);
+	text-align: center;
+	font-size: 0.9em;
+	border: none;
+	font-family: "Libre Baskerville", serif;
+	letter-spacing: 1.5px;
+	font-size: 0.9em;
+	padding: 10px;
+}
+
+.button:hover {
+	color: #ffffff;
+	background-color: rgba(39, 39, 39, .65);
+}
+
+#welcome,
+#contactus {
+	padding: 35px;
+	text-align: center;
+	letter-spacing: 1.5px;
+	font-size: 0.9em;
+	background-color: #FFFEEB;
+}
+
+#ourbestsellers,
+#ourcollections,
+#ourladiescollection,
+#ourmenscollection {
+	text-align: center;
+	letter-spacing: 1.5px;
+	font-size: 0.9em;
+	background-color: #FFFEEB;
+}
+
+#productshomepagelink {
+	color: inherit;
+	text-decoration: none;
+}
+
+#productshomepagelink:hover {
+	text-decoration: underline;
+}
+
+.card {
+	background-color: #272727;
+	color: #ffffff;
+	font-size: 0.8em;
+	letter-spacing: 1.5px;
+}
+
+.btn {
+	border: 1px solid white;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	box-shadow: inset 0 0 0 0 #ffffff;
+	transition: ease-in-out 0.4s;
+}
+
+.btn:hover {
+	background-color: #ffffff;
+	color: #272727;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	opacity: 0;
+	transition: 1.8s;
+}
+
+.content:hover {
+	opacity: 1;
+}
+
+#ourcollectionslinks {
+	text-decoration: none;
+	color: inherit;
+}
+
+#ourcollectionslinks:after {
+	display: block;
+	content: '';
+	border-bottom: solid 1px white;
+	transform: scaleX(0);
+	transition: transform 250ms ease-in-out;
+
+}
+
+#ourcollectionslinks:hover:after {
+	transform: scaleX(1);
+}
+
+#youraccount,
+#register {
+	padding: 35px;
+	letter-spacing: 1.5px;
+	font-size: 0.9em;
+	background-color: #FFFEEB;
+
+}
+
+.form-control,
+.form-select {
+	border: 1px solid black;
+	border-radius: 4px;
+}
