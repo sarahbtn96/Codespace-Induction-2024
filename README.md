@@ -2,5 +2,5 @@
 
 My completed challenges and portfolio website for Edinburgh College's Codespace Induction Course
 
-View my portfolio website MK Time here - https://sarahbtn96.github.io/
+View my portfolio website MK Time here - https://sarahsbtn.github.io/
 
